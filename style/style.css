@@ -1,3 +1,84 @@
-h1{
-    color: red;
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+/* Header Section */
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    padding-left: 24px;
+    height: 32px;
+    width: auto;
+    
+}
+
+.colmaracademy{
+    font-size: 32px;
+    color: gray;
+}
+
+.colmaracademy strong{
+    color: black;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+
+
+nav span{
+    display: inline-block;
+    padding: 0px 16px;
+    
+    
+}
+/* Learn Something Section */
+
+.learncontainer{
+    width: 100%;
+    height: auto;
+    height: auto;
+    background-color: lightgray;
+    display: flex;
+   
+}
+
+.learncontainer img{
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+    
+}
+
+.learncontent {
+    width: 40%;
+    margin: auto 0px;
+    padding: 0px;
+}
+
+.learncontent h1{
+    font-size: 56px;
+}
+
+.learncontent h3{
+    font-size: 22px;
+}
+
+.learncontent button{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    border: none;
+    padding: 8px 0px;
+    margin-left: 10px;
+    width: 300px;
 }
