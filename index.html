@@ -4,35 +4,222 @@
 <head>
 <title> Colmar Academy </title>
 <link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--Header Section-->
-  <div id="flexheadercontainer">
-      <header>
-          <div class="logo">
-              <img src="./images/ic-logo.svg" />
-          </div>
-          <div class="colmaracademy"> 
-            <p><strong>COLMAR</strong>ACADEMY</p>
-          </div>
-          <nav>
-            <span>On campus</span>
-            <span>Online</span>
-            <span>For companies</span>
-            <span>Sign in</span>
-          </nav>
-      </header>
-  </div> 
+    <header>
+      <div class="logo">
+        <img src="./images/ic-logo.svg" />
+      </div>
+      <div class="colmaracademy"> 
+        <p><strong>COLMAR</strong>ACADEMY</p>
+      </div>
+      <nav>
+        <span>On campus</span>
+        <span>Online</span>
+        <span>For companies</span>
+        <span>Sign in</span>
+      </nav>
+      </header>  
+
 
   <!--Learn Something Section-->
+ <main>
   <div class="learncontainer">
-      <img src="images/banner.jpg" />
+      <img src="images/banner.jpg" alt="Students Learning together"/>
       <div class="learncontent">
           <h1>Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <button>Start here</button>
         </div>
     </div>
+
+  <!--Practice Section-->
+  <div class="practicelevel">
+
+    <div class="practiceinformation">
+      <div class="practice-img">
+        <img src="./images/information-main.jpg" alt="student reading a book" />
+      </div>
+        <div class="informationcontent">
+        <h1>It doesn't hurt to keep practicing</h1>
+        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo 
+        lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat 
+        ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+        <h6> Emmanual, Sr Strategist at Hiring.com</h6>
+      </div>
+    </div>
+
+    <div class="side-bar">
+     <div class="item">
+        <div class="item-img">
+          <img src="./images/information-orientation.jpg" />
+        </div>
+        <div class="item-content">
+          <h3>Orientation date</h3>
+          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+          <a href="#read-more">Read more</a>
+        </div> 
+      </div> 
+    
+
+      <div class="item">
+        <div class="item-img">
+         <img src="./images/information-campus.jpg" />
+        </div>
+        <div class="item-content">
+          <h3>Our campus</h3>
+          <p>Find which campus is close by you</p>
+          <a href="#read-more">Read more</a>
+        </div> 
+      </div> 
+      
+      <div id="gray">
+        <div class="item" id="gray">
+          <div class="item-img">
+            <img src="./images/information-guest-lecture.jpg" />
+          </div>
+          <div class="item-content">
+            <h3>Our guest lecture</h3>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <a href="#read-more">Read more</a>
+          </div>   
+        </div> 
+      </div>
+  </div>
+  </div>
+
+<!--Start Learning-->
+<div class="startlearningcontainer">
+  <div class="start-header">
+    <p>Start learning</p>
+  </div>
+  <div class="classes">
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-software.jpg" alt="computer with lamp">
+      </div>
+      <div class="blockcontent">
+        <h4>Software engineering</h4>
+        <h5>COURSES</h5>
+        <p>Web Development, Mobile Development, iOT, APIs</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-computer-art.jpg" alt="cellphone">
+      </div>
+      <div class="blockcontent">
+        <h4>Computer Art</h4>
+        <h5>COURSES</h5>
+        <p>Imagin & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-design.jpg" alt="person holding camera">
+      </div>
+      <div class="blockcontent">
+        <h4>Design</h4>
+        <h5>COURSES</h5>
+        <p>User Experience Design, User Research, Visual Design</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-data.jpg" alt="Laptop with graphs">
+      </div>
+      <div class="blockcontent">
+        <h4>Data</h4>
+        <h5>COURSES</h5>
+        <p>Data Science, Big Data, SQL, Data Visualization</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-business.jpg" alt="chess board and pieces">
+      </div>
+      <div class="blockcontent">
+        <h4>Business</h4>
+        <h5>COURSES</h5>
+        <p>Product Development, Business Development, Startup</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="blockphoto">
+        <img src="./images/course-marketing.jpg" alt="apple watch">
+      </div>
+      <div class="blockcontent">
+        <h4>Marketing</h4>
+        <h5>COURSES</h5>
+        <p>Analytics, Content Marketing, Mobile Marketing</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Thesis Exhibit Section-->
+<div class="thesistitle">
+  <p>Thesis exhibit</p>
+</div>
+
+<div class="thesisexhibit">
+  <div class="thesisvideo">
+    <video autoplay muted loop>
+      <source src="videos/thesis.mp4" type="video/mp4">
+    </video>
+    <div class="thesis-video-content">
+      <h3>Reimagine urban</h3>
+      <h4>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo 
+        lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat 
+        ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h4>
+    </div>
+  </div>
+
+
+  <div class="thesis-sidebar">
+    <div id="gray">
+      <div class="thesis-item">
+        <div class="thesis-item-photo">
+          <img src="./images/thesis-fisma.jpg" alt="person working">
+        </div>
+        <div class="thesis-item-content">
+          <h2>Fisma: Design and Prototype</h2>
+          <h4>Designer showcase of new protoype product</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="thesis-item">
+      <div class="thesis-item-photo">
+        <img src="./images/thesis-now-and-then.jpg" alt="empire state building">
+      </div>
+      <div class="thesis-item-content">
+        <h2>Now and then</h2>
+        <h4>Research study about New York</h4>
+      </div>
+    </div>
+  </div>
+</div>  
+</main>
+
+<!--Footer-->
+
+<footer>
+  <div class="footerleft">
+    2016 Colmar Academy. All rights reserved
+  </div>
+  <div class="footerright">
+    <a href="#terms">Terms</a>
+    <a href="#Privacy">Privacy</a>
+  </div>
+</footer>
 </body>
 </html>
